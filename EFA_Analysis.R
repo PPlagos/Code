@@ -25,7 +25,7 @@ library(apa7)
 library(officer)
 
 #### Loading Data ####
-dataset <- read.csv("Data.csv", sep=",", fileEncoding="latin1") #read csv file with numeric data
+dataset <- read.csv("-- path to the file containing the respondents data", sep=",", fileEncoding="latin1") #read csv file with numeric data
 dataset <- as.data.frame(dataset) #set the data as dataframe
 
 #### Cleaning Data ###
