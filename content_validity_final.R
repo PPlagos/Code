@@ -15,7 +15,7 @@ library(forcats)
 
 #### Loading Data from the Questionnaire
 getwd()
-setwd("D:/ΠΑΝΑΓΙΩΤΗΣ ΠΛΑΓΟΣ/ΚΥΒΕΡΝΟΨΥΧΟΛΟΓΙΑ ΕΚΠΑ/ΔΙΠΛΩΜΑΤΙΚΗ/code/Content Validity/")
+setwd("-- path to the file containing the item-reviewers' data --")
 df <- read.csv("content_validity_final.csv")
 head(df)
 
