@@ -20,7 +20,7 @@ library(flextable)
 library(officer)
 
 #### Load Demographics Dataset ####
-demographics <- read_excel("Professional/ΚΥΒΕΡΝΟΨΥΧΟΛΟΓΙΑ ΕΚΠΑ/ΔΙΠΛΩΜΑΤΙΚΗ/code/EFA/Book1.xlsx")
+demographics <- read_excel("-- path to the dataset containing the demographic and chatbot profile data --")
 
 ####Inspect Dataset ####
 View(demographics)
